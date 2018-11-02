@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1541140232 source:/home/khayrul/workspace/Computer-Graphics/SimpleAmimation/main.cpp
+	<cmath>
+	<iostream>
+	"screen.h"
+	"circle.h"
+	"particle.h"
+
+1541100918 /home/khayrul/workspace/Computer-Graphics/SimpleAmimation/include/screen.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+
+1541138857 source:/home/khayrul/workspace/Computer-Graphics/SimpleAmimation/src/screen.cpp
+	"screen.h"
+	<iostream>
+
+1541105003 /home/khayrul/workspace/Computer-Graphics/SimpleAmimation/include/circle.h
+	"screen.h"
+
+1541104980 source:/home/khayrul/workspace/Computer-Graphics/SimpleAmimation/src/circle.cpp
+	<cmath>
+	"circle.h"
+	"screen.h"
+
+1541141555 /home/khayrul/workspace/Computer-Graphics/SimpleAmimation/include/particle.h
+	<cmath>
+	"screen.h"
+
+1541141523 source:/home/khayrul/workspace/Computer-Graphics/SimpleAmimation/src/particle.cpp
+	"particle.h"
+	"screen.h"
+	<iostream>
+	<cmath>
+

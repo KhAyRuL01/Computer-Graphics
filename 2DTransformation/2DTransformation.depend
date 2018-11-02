@@ -1,16 +1,18 @@
 # depslib dependency file v1.0
-1541093080 source:/home/khayrul/workspace/Computer-Graphics/2DTransformation/main.cpp
+1541093413 source:/home/khayrul/workspace/Computer-Graphics/2DTransformation/main.cpp
 	<iostream>
+	"screen.h"
+	"rectangle.h"
 
-1541093234 source:/home/khayrul/workspace/Computer-Graphics/2DTransformation/src/screen.cpp
+1541099908 source:/home/khayrul/workspace/Computer-Graphics/2DTransformation/src/screen.cpp
 	"screen.h"
 	<iostream>
 
-1541093205 /home/khayrul/workspace/Computer-Graphics/2DTransformation/include/screen.h
+1541099910 /home/khayrul/workspace/Computer-Graphics/2DTransformation/include/screen.h
 	<SDL2/SDL.h>
 	<GL/glew.h>
 
-1541093342 source:/home/khayrul/workspace/Computer-Graphics/2DTransformation/src/rectangle.cpp
+1541100599 source:/home/khayrul/workspace/Computer-Graphics/2DTransformation/src/rectangle.cpp
 	<cmath>
 	"rectangle.h"
 	"screen.h"
