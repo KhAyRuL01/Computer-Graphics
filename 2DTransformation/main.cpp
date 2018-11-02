@@ -15,12 +15,15 @@ int main()
     }
     rect.initObj(200, 200, 300, 300, 0x0000ff);
     rect.drawObj(screen);
+
     SDL_Delay(1000);
     screen.clearScreen();
     rect.tranlateObj(screen, 100, 100);
+
     SDL_Delay(1000);
     screen.clearScreen();
     rect.scaleObj(screen, 2,1);
+
     SDL_Delay(1000);
     for(int i = 0; i < 360; i++){
 
