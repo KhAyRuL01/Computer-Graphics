@@ -25,7 +25,6 @@ void Rectangle::drawObj(Screen &screen){
         for(int j = y1; j < y2; j++)
             screen.setPixel(i, j, color);
     }
-    screen.update();
 }
 
 void Rectangle::scaleObj(Screen &screen, int xs, int ys){
@@ -34,7 +33,6 @@ void Rectangle::scaleObj(Screen &screen, int xs, int ys){
         for(int j = y1*ys; j < y2*ys; j++)
             screen.setPixel(i, j, color);
     }
-    screen.update();
 }
 
 int Rectangle::rotateObj(Screen &screen, int xr, int yr, int theta){
@@ -51,7 +49,6 @@ int Rectangle::rotateObj(Screen &screen, int xr, int yr, int theta){
             screen.setPixel(x+0.9, y+0.9, color);
         }
     }
-    screen.update();
 }
 
 int Rectangle::tranlateObj(Screen &screen, int xt, int yt){
@@ -60,5 +57,9 @@ int Rectangle::tranlateObj(Screen &screen, int xt, int yt){
         for(int j = y1; j < y2; j++)
             screen.setPixel(i+xt, j+yt, color);
     }
-    screen.update();
+}
+
+void Rectangle::setColor(int color){
+
+    this-> color = color;
 }

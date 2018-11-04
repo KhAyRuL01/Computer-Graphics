@@ -51,8 +51,6 @@ bool Screen::init(){
 
     buffer = new Uint32[WIDTH*HEIGHT];
     memset(buffer, 0, WIDTH*HEIGHT*sizeof(Uint32));
-
-    this->update();
     return true;
 }
 
@@ -94,5 +92,4 @@ void Screen::setPixel(int x, int y, int color){
 void Screen::clearScreen(){
 
     memset(buffer, 0, WIDTH*HEIGHT*sizeof(Uint32));
-    this->update();
 }
